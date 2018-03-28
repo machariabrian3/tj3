@@ -1,0 +1,7 @@
+$query_docs = "INSERT INTO `documents`(`work_permit`, `passport`, `driving_license`, `training_cert`) VALUES ('$permit','$passport','$license','$trainingCert')";
+                    $run_doc = $db->query($query_docs);
+                    if ($run_doc){
+                        $msg = '<div class="alert alert-success">successful registration</div>';
+                    }else{
+                        $msg = '<div class="alert alert-danger">documents not received</div>';
+                    }

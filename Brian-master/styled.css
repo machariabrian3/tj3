@@ -1,0 +1,24 @@
+body
+{
+  background: url("blackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card
+{
+  margin-top: 17vh;
+  padding:30px;
+  box-shadow: 10px 8px 10px;
+}
+.list-group
+{
+  margin-top:30px;
+}
+.row
+{
+  padding-top:10px;
+}
+.success
+{
+  padding-top:30px;
+}
